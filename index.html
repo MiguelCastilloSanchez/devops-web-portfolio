@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mike's Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Miguel Castillo</h1>
+            <h2>Software Engineer Student</h2>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I am a passionate software developer and engineering student who loves building innovative solutions through code. My journey in software development has allowed me to work on exciting projects, from deploying scalable backend services with Kubernetes to developing machine learning models in challenging areas such as human activity recognition.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Universidad Autónoma de Yucatán</h3>
+            <span class="education-date">Agt 2021 - May 2026</span>
+            <h4>Bachelor’s degree in Software Engineering</h4>
+            <p>
+                I am currently pursuing a Software Engineering degree, where I have gained solid knowledge in software development, design, and project management. My studies have provided me with a strong foundation in programming, algorithms, and system architecture. Additionally, I have completed two relevant courses in Machine Learning, enhancing my skills in data analysis, model development, and the application of AI technologies to solve real-world problems.
+            </p>
+        </div>
+
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project1.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Improving Human Activity Recognition through Data Fusion</h3>
+                        <p>
+                            The project details the development and implementation of a system designed to improve HAR by leveraging data fusion techniques. 
+                        </p>
+                        <a href="https://github.com/MiguelCastilloSanchez/har-with-opportunity-dataset">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project2.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Kubernetes Backend Deployment for Blog Website</h3>
+                        <p>
+                            This project involved the deployment of a backend infrastructure for a vlog website using Kubernetes. The
+                            backend consisted of three microservices—auth-service, users-service, and posts-service—deployed and managed using
+                            Helm Charts and ArgoCD to ensure continuous integration and delivery.
+                        </p>
+                        <a href="https://github.com/MiguelCastilloSanchez/helm-chart-app-services">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project3.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Spring Boot User Authentication Service</h3>
+                        <p>
+                            This project involves the development of a user authentication service using Spring Boot, Spring Security, and
+                            JWT for secure authentication. It also includes a token blacklist management feature implemented with Redis to handle
+                            revoked tokens. The service interacts with MongoDB for user data management. 
+                        </p>
+                        <a href="https://github.com/MiguelCastilloSanchez/spring-boot-user-authentication">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>Node.js</li>
+            <li>React</li>
+            <li>Spring</li>
+            <li>MySQL</li>
+            <li>PostgreSQL</li>
+            <li>MongoDB</li>
+            <li>Redis</li>
+            <li>RabbitMQ</li>
+            <li>Docker</li>
+            <li>Kubernetes</li>
+            <li>Github Actions</li>
+            <li>ArgoCD</li>
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+            <li>GCP</li>
+            <li>Azure</li>
+            <li>Linux</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2025</span> Mike's Portfolio
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/MiguelCastilloSanchez" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/miguel-castillo-634a60255/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
