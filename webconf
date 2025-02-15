@@ -1,0 +1,13 @@
+server {
+       listen 80;
+       listen [::]:80;      
+       
+       server_name <IP assigned from the router>; 
+       
+       root /var/www/devops-web-portfolio;
+       index index.html;       
+
+       location / {
+               try_files $uri $uri/ =404;
+       }
+}
